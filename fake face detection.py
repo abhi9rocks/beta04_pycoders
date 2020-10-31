@@ -48,6 +48,7 @@ while True:
         cv2.rectangle(img, (x, y), (x1, y1), (255, 0, 0), 2)
 
         point = (x, y-5)
+        #configuring boxes here
 
         
         if 0 not in measures:
