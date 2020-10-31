@@ -60,7 +60,6 @@ It is divided into two parts:
 1. Audio from the microphone is recording and converted to text using Google's speech recognition API. A different thread is used to call the API such that the recording portion is not disturbed a lot, which processes the last one, appends its data to a text file and deletes it.
 2. NLTK we remove the stopwods from that file. The question paper (in txt format) is taken whose stopwords are also removed and their contents are compared. Finally, the common words along with its number are presented to the proctor.
 
-The code for this part is available in `audio_part.py`
 
 ### Problems
 1. Collection of dataset and the training was the major challange that we faced in such short period of time
