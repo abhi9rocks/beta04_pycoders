@@ -54,8 +54,6 @@ Person and Phone Detection | 1.3
 Head Pose Estimation | 8.5
 Face Spoofing | 6.9
 
-If you testing on a different processor a GPU consider making a pull request to add the FPS obtained on that processor.
-
 
 ## Audio
 It is divided into two parts:
