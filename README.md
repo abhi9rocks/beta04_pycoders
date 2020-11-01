@@ -2,10 +2,6 @@
 
 Project to create an automated monitoring system where the user can be monitored automatically through the webcam and microphone. The project is divided into two parts: vision and audio based functionalities.
 
-## How to run this on your PC ?
-
-1. Install the necessary libraries using pip install -r requirements.txt 
-2. Clone this repo and run each python file individually.
 
 
 ## Vision Feature
@@ -39,7 +35,8 @@ It is implemented in `face landmarks.py` and is used for tracking eyes, mouth op
 
 ### Person counting and mobile phone detection
 `face on phone.py` is for counting persons and detecting mobile phones. YOLOv3 is used in Tensorflow 2 
-![person counting and phone detection]()
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/48823353/97796496-abbd7a80-1c38-11eb-8fda-b615e63c17e8.gif)
+
 
 ### Head position estimation
 `head pose detect.py` is used for finding where the head is facing.
