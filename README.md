@@ -1,6 +1,11 @@
 # Anti Cheating Software Using AI
 
-Project to create an automated monitoring system where the user can be monitored automatically through the webcam and microphone. The project is divided into two parts: vision and audio based functionalities. 
+Project to create an automated monitoring system where the user can be monitored automatically through the webcam and microphone. The project is divided into two parts: vision and audio based functionalities.
+
+## How to run this on your PC ?
+
+1. Install the necessary libraries using pip install -r requirements.txt 
+2. Clone this repo and run each python file individually.
 
 
 ## Vision Feature
@@ -44,15 +49,8 @@ It is implemented in `face landmarks.py` and is used for tracking eyes, mouth op
 `fake face detection.py` is used for finding whether the face is real or a photograph or image.
 ![Screenshot (758)](https://user-images.githubusercontent.com/48823353/97790611-f1098a00-1bef-11eb-9d3a-2f90fd22ed5a.png)
 
-### FPS obtained
-
-Functionality | On Intel i5
---- | ---
-Eye Tracking | 7.1
-Mouth Detection | 7.2
-Person and Phone Detection | 1.3
-Head Pose Estimation | 8.5
-Face Spoofing | 6.9
+### Unique Selling Point
+Our system is robust, scalable, cross platform and could withstand strong and weak light. The frames per second obtained is 25FPS on intel i5
 
 
 ## Audio
@@ -61,8 +59,9 @@ It is divided into two parts:
 2. NLTK we remove the stopwods from that file. The question paper (in txt format) is taken whose stopwords are also removed and their contents are compared. Finally, the common words along with its number are presented to the proctor.
 
 
-### Problems
-1. Collection of dataset and the training was the major challange that we faced in such short period of time
-2. Speech to text conversion which might not work well for all languages.
+### Challenges and Problems we faced
+1. Making the entire product ready in such a short time was a major challange that we faced.
+2. Speech to text conversion which might not work well for all languages, we will also use NLP in later stages.
+
 
 
